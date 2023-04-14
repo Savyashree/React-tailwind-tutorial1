@@ -3,9 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <h1 className="border-4 border-green-700">
+        Hello world!
+      </h1>
+      <h1 className="text-vuejs">
+        Hello world!
+      </h1>
+    </div>
+
   );
 }
 
